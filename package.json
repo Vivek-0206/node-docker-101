@@ -1,0 +1,24 @@
+{
+	"name": "node-express-docker",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Simple node server with express and docker",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	},
+	"keywords": [
+		"Docker",
+		"Express",
+		"Node"
+	],
+	"author": "Vivek-0206",
+	"license": "ISC"
+}
